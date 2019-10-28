@@ -3,14 +3,14 @@ int main (int argc,char* argu[]){
 	//se declara otra lista para guardar la lista de argu 
 	//tambien se declara la variable suma 
 	//argc es el numero de argumentos
-	int lista[argc],suma=0
+	float lista[argc],suma=0
 	//se declara promedio como numero real porque el resultado 
 	//suele ser con decimales
 	float promedio;
 	//este for es para copiar argu a lista 
 	//se empieza con 1 y no con 0 porque argu[0] es ./main
 	for (int i=1;i<argc;i++){
-	lista[i]=atoi(argu[i]);
+	lista[i]=atof(argu[i]);
 	}
 	//este for es para sumar los elementos de la lista 
 	//al principio suma=0 asi que la primera vez suma=lista[1] 

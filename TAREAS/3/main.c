@@ -1,20 +1,15 @@
 #include <stdio.h>
-int main(int argc, char *argv[])
-{
-	double sum, resta, multi, div;
-	double num1, num2;
-	num1=atof(argv[1]);
-	num2=atof(argv[2]);
-
-	sum = (double)num1+num2;
-	resta = (double)num1-num2;
-	multi = (double)num1*num2;
-	div = (double)num1/num2;
-
-	printf("%f\n",sum);
-	printf("%f\n",resta);
-	printf("%f\n",multi);
-	printf("%f\n",div);
-
-	return 0;
+int main(int argc,char* argu[]){
+	float 
+num1,num2,suma,resta,multiplicacion,division;
+    num1=atof(argu[1]);
+    num2=atof(argu[2]);
+    suma=num1+num2;
+    resta=num1-num2;
+    multiplicacion=num1*num2;
+    division=num1/num2;
+    printf("%.2f\n",suma);
+    printf("%.2f\n",resta);
+    printf("%.2f\n",multiplicacion);
+    printf("%.2f\n",division);
 }
