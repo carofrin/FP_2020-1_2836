@@ -3,7 +3,7 @@ int main (int argc,char* argu[]){
 	//se declara otra lista para guardar la lista de argu 
 	//tambien se declara la variable suma 
 	//argc es el numero de argumentos
-	float lista[argc],suma=0
+	float lista[argc],suma=0;
 	//se declara promedio como numero real porque el resultado 
 	//suele ser con decimales
 	float promedio;

@@ -12,4 +12,5 @@ num1,num2,suma,resta,multiplicacion,division;
     printf("%.2f\n",resta);
     printf("%.2f\n",multiplicacion);
     printf("%.2f\n",division);
+    return 0;
 }
